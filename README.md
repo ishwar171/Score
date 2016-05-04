@@ -14,3 +14,8 @@ Based on the inputs given by you, we recommend the following score spilts that y
 
 4. And the last Textbox functionalities are we have to add first textbox and textbox and its result should display in third textbox
 ```
+
+````
+And download the font awesome and Include font awesome css in your folder font-awesome.min.css
+
+````
