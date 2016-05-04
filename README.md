@@ -16,6 +16,6 @@ Based on the inputs given by you, we recommend the following score spilts that y
 ```
 
 ````
-And download the font awesome and Include font awesome css in your folder font-awesome.min.css
+Download bootstrap font folder and download font awesome icon from fontawesome.com, then include these file in your index.html file using these tag:<link rel="stylesheet" href=".....">
 
 ````
