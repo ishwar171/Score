@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<htmln lang="en">
+<head>
+   <title>SCORE</title>
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <link rel="stylesheet" href="css/bootstrap.min.css">
+   <link rel="stylesheet" href="css/score.css">
+   <link rel="stylesheet" href="fonts/font-awesome-4.5.0/css/font-awesome.min.css">
+   <script src="js/jquery.min.js"></script>
+   <script src="js/bootstrap.min.js"></script>
+   <script src="js/score.js"></script>
+</head>
+<body>
+   <div class="container contain">
+      <div id="carousel" class="carousel slide carousel-fade" data-ride="carousel">
+         <ol class="carousel-indicators">
+            <li data-target="#carousel" data-slide-to="0" class="active"></li>
+            <li data-target="#carousel" data-slide-to="1"></li>
+            <li data-target="#carousel" data-slide-to="2"></li>
+         </ol>
+         <div class="carousel-inner">
+            <div class="active item">
+               <img src="image/maths3.jpg">
+            </div>
+            <div class="item">
+               <img src="image/maths2.png">
+            </div>
+            <div class="item">
+               <img src="image/slide2.jpg">
+            </div>
+         </div>
+         <a class="carousel-control left leftarrow" href="#carousel" data-slide="prev"><span class="glyphicon glyphicon-menu-left"></span></a>
+         <a class="carousel-control right rightarrow" href="#carousel" data-slide="next"><span class="glyphicon glyphicon-menu-right"></span></a>
+      </div>
+      <br>
+      <div class="row">
+         <div class="col-md-4 text-center scorerecomm">
+            <h4 class="scoretext1">Score recommendation</h4>
+         </div>
+         <div class="col-md-12 scoretext">
+            <br>
+            <p>Based on the inputs given by you, we recommend the following score spilts that you should aim for to achieve the desired target score.</p>
+         </div>
+         <div class="col-md-3">
+            <label>
+               <h4>Quont Score</h4>
+            </label>
+            <br/>
+            <input type="text" name="level1" id="level1" class="text form-control"  value="">
+            <span class="addition"><i class="fa fa-plus-square" aria-hidden="true"></i></span>
+         </div>
+         <div class="col-md-1"><br/>
+         </div>
+         <div class="col-md-3">
+            <label>
+               <h4>Verbal Score</h4>
+            </label>
+            <br/>
+            <input type="text" name="level2" id="level2" class="text form-control" value="">
+            <span><img src="image/equal.png" class="equal"></span>
+         </div>
+         <div class="col-md-1"><br/><br/>
+         </div>
+         <div class="col-md-3">
+            <label>
+               <h4>Result</h4>
+            </label>
+            <input type="text" name="level3" id="level3" class="text form-control" value="">
+         </div>
+      </div>
+      <br/><br/>
+      <div class="row">
+         <div class="col-md-4">
+            <div class="row alg">
+               <div class="col-md-2">
+                  Algebra
+               </div>
+               <div class="col-md-4">
+                  <input type="range" id="chanceSlider" class="vHorizon" min="1" max="98" step="1" style="background-color: #00aec8; ">
+                  <!-- <input type="text" name="chance" id="chance" class="text" value="50">  -->
+               </div>
+               <div class="col-md-1">
+                  <div id="chance">
+                     50
+                  </div>
+               </div>
+            </div>
+            <br>
+            <div class="row">
+               <div class="col-md-3">
+                  Arithmetic
+               </div>
+               <div class="col-md-4">
+                  <input type="range" id="chanceSlider1" class="vHorizon" min="1" max="98" step="1" style="background-color: #00aec8; ">
+                  <!-- <input type="text" name="chance1" id="chance1" class="text" value="50"> -->
+               </div>
+               <div class="col-md-1">
+                  <div id="chance1">
+                     50
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="col-md-6 coltext">
+            <div class="row sc">
+               <div class="col-md-2">
+                  SC
+               </div>
+               <div class="col-md-3">
+                  <input type="range" id="chanceSlider2" class="vHorizon" min="1" max="98" step="1" style="background-color: #00aec8; ">
+                  <!-- <input type="text" name="chance" id="chance" class="text" value="50">  -->
+               </div>
+               <div class="col-md-1">
+                  <div id="chance2">
+                     50
+                  </div>
+               </div>
+            </div>
+            <div class="row cr">
+               <div class="col-md-2">
+                  CR
+               </div>
+               <div class="col-md-3">
+                  <input type="range" id="chanceSlider3" class="vHorizon" min="1" max="98" step="1" style="background-color: #00aec8; ">
+                  <!-- <input type="text" name="chance1" id="chance1" class="text" value="50"> -->
+               </div>
+               <div class="col-md-1">
+                  <div id="chance3">
+                     50
+                  </div>
+               </div>
+            </div>
+            <div class="row">
+               <div class="col-md-2">
+                  RC
+               </div>
+               <div class="col-md-3">
+                  <input type="range" id="chanceSlider4" class="vHorizon" min="1" max="98" step="1" style="background-color: #00aec8; ">
+                  <!-- <input type="text" name="chance1" id="chance1" class="text" value="50"> -->
+               </div>
+               <div class="col-md-1">
+                  <div id="chance4">
+                     50
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+   <br/>
+   </div>
+</body>
+</html>
